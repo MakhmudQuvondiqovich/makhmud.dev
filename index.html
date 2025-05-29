@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Makhmud/Dev - IT Solutions</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Lato:wght@400;700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="language-buttons">
+        <button onclick="changeLanguage('uz')">O'zbek</button>
+        <button onclick="changeLanguage('ru')">Русский</button>
+        <button onclick="changeLanguage('en')">English</button>
+    </div>
+
+    <header>
+        <h1>
+            <span data-i18n="header.before_name">&lt;</span>
+            <span data-i18n="header.name">Makhmud/Dev</span>
+            <span data-i18n="header.after_name">&gt;</span>
+        </h1>
+        <p data-i18n="header.subtitle">Ваш партнер в области цифровой трансформации</p>
+    </header>
+
+    <nav>
+        <a href="#services" data-i18n="nav.services">Услуги</a>
+        <a href="#about-me" data-i18n="nav.about">Обо мне</a>
+        <a href="#contact" data-i18n="nav.contact">Контакты</a>
+    </nav>
+
+    <section id="services" class="services">
+        <h2 data-i18n="services.title">Мои Услуги</h2>
+        <div class="service-grid">
+            <div class="service">
+                <h3 data-i18n="services.web_dev.title">Веб-разработка</h3>
+                <p data-i18n="services.web_dev.desc">Создание современных, адаптивных и удобных веб-сайтов, отвечающих
+                    вашим бизнес-потребностям.</p>
+            </div>
+            <div class="service">
+                <h3 data-i18n="services.domain.title">Организация доменной структуры</h3>
+                <p data-i18n="services.domain.desc">Автоматизация установки, обновления и управления ПО через домен
+                    для снижения нагрузки на IT-отдел.</p>
+            </div>
+            <div class="service">
+                <h3 data-i18n="services.server.title">Создание и настройка серверов</h3>
+                <p data-i18n="services.server.desc">Настройка и поддержание стабильной работы серверов для хранения
+                    файлов, почты и печати.</p>
+            </div>
+            <div class="service">
+                <h3 data-i18n="services.network.title">Сетевая инфраструктура</h3>
+                <p data-i18n="services.network.desc">Разрабатываю, внедряю и управляю безопасными и надёжными
+                    сетевыми решениями.</p>
+            </div>
+            <div class="service">
+                <h3 data-i18n="services.it_support.title">IT-поддержка</h3>
+                <p data-i18n="services.it_support.desc">Предлагаю комплексные услуги ИТ-поддержки для обеспечения
+                    бесперебойной работы ваших систем.</p>
+            </div>
+
+            <!-- Добавил услуги системного администратора -->
+            <div class="service">
+                <h3 data-i18n="services.sysadmin.title">Системное администрирование</h3>
+                <p data-i18n="services.sysadmin.desc">Профессиональное администрирование вашей IT-инфраструктуры для
+                    бесперебойной работы и безопасности.</p>
+            </div>
+
+            <!-- Добавил услугу для веб-разработчика -->
+            <div class="service">
+                <h3 data-i18n="services.frontend.title">Frontend разработка</h3>
+                <p data-i18n="services.frontend.desc">Разработка пользовательских интерфейсов с использованием
+                    современных технологий и лучших практик.</p>
+            </div>
+
+            <div class="service">
+                <h3 data-i18n="services.camera.title">Установка и настройка камер</h3>
+                <p data-i18n="services.camera.desc">Защитите свой дом или бизнес с помощью профессиональной установки
+                    и настройки камер видеонаблюдения "Hikvision".</p>
+            </div>
+            <div class="service">
+                <h3 data-i18n="services.os.title">Установка и настройка ОС и ПО</h3>
+                <p data-i18n="services.os.desc">Быстрая установка Windows (8.1, 10, 11) и популярных программ: AutoCAD,
+                    Photoshop, 1C, Office и защита от вирусов.</p>
+            </div>
+            <div class="service">
+                <h3 data-i18n="services.1c.title">Обслуживание 1С</h3>
+                <p data-i18n="services.1c.desc">Оперативное решение проблем, автоматизация резервного копирования и
+                    обновлений, консультации. Экономия времени на администрирование и поддержание работоспособности 1С.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="about-me" class="about-me">
+        <!-- Изменила id и class, чтобы отразить личный характер -->
+        <h2 data-i18n="about.title">Обо мне</h2>
+        <p data-i18n="about.desc">Я - опытный ИТ-профессионал, стремящийся предоставлять инновационные и надежные
+            решения. С энтузиазмом отношусь к технологиям и стремлюсь к совершенству, чтобы помочь бизнесу процветать в
+            цифровую эпоху.</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2 data-i18n="contact.title">Контакты</h2>
+        <p data-i18n="contact.desc">Готовы вывести ваш бизнес на новый уровень? Свяжитесь со мной сегодня, чтобы
+            обсудить ваши потребности в IT-решениях.</p>
+        <p>Email: <a href="mailto:makhmud.dev@mail.ru">makhmud.dev@mail.ru</a></p>
+        <p><span data-i18n="contact.phone">Телефон:</span> <a href="tel:+998774305759"
+                style="font-size: 1.4rem; color: #ffcc00;">+998774305759</a></p>
+        <p>Telegram: <a href="https://t.me/makhmudj6n" style="font-size: 1.4rem; color: #ffcc00;">Telegram</a></p>
+
+    </section>
+
+    <footer>
+        <p data-i18n="footer.copyright">&copy; 2025 Makhmud/Dev. Все права защищены.</p>
+    </footer>
+
+    <script>
+        const translations = {
+            "uz": {
+                "header.before_name": "<",
+                "header.name": "Makhmud/Dev",
+                "header.after_name": ">",
+                "header.title": "Makhmud/Dev",
+                "header.subtitle": "Raqamli transformatsiya sohasidagi hamkoringiz",
+                "nav.services": "Xizmatlar",
+                "nav.about": "Men haqimda",
+                "nav.contact": "Aloqa",
+                "services.title": "Mening xizmatlarim",
+                "services.web_dev.title": "Veb-dasturlash",
+                "services.web_dev.desc": "Men frontend veb-dasturchisiman. Kompaniyalarga zamonaviy va qulay veb-saytlar yaratishda yordam beraman, ular foydalanuvchilarni jalb qiladi va biznes vazifalarini hal qiladi.",
+                "services.domain.title": "Domen tuzilishini tashkil etish",
+                "services.domain.desc": "IT bo'limiga yuklamani kamaytirish uchun domenda dasturiy ta'minotni o'rnatish, yangilash va boshqarishni avtomatlashtirish.",
+                "services.server.title": "Serverlarni yaratish va sozlash",
+                "services.server.desc": "Fayllar, pochta va chop etishni saqlash uchun serverlarning barqaror ishlashini sozlash va qo'llab-quvvatlash.",
+                "services.network.title": "Tarmoq infratuzilmasi",
+                "services.network.desc": "Men xavfsiz va ishonchli tarmoq echimlarini ishlab chiqaman, joriy qilaman va boshqaraman.",
+                "services.it_support.title": "IT-qo'llab-quvvatlash",
+                "services.it_support.desc": "Tizimlaringizning uzluksiz ishlashini ta'minlash uchun IT-qo'llab-quvvatlash bo'yicha kompleks xizmatlarni taklif qilaman.",
+                "services.camera.title": "Kameralarni o'rnatish va sozlash",
+                "services.camera.desc": "Uyingizni yoki biznesingizni профессионал o'rnatish va kameralarni sozlash bilan himoya qiling видеокузатув Hikvision.",
+                "services.os.title": "OT va dasturiy ta'minotni o'rnatish va sozlash",
+                "services.os.desc": "Windows (8.1, 10, 11) va mashhur dasturlarni tez o'rnatish: AutoCAD, Photoshop, 1C, Office va viruslardan himoya.",
+                "services.1c.title": "1C ga xizmat ko'rsatish",
+                "services.1c.desc": "Muammolarni tezkor hal qilish, zaxira nusxalarini olish va yangilanishlarni avtomatlashtirish, maslahatlar. 1C ish qobiliyatini boshqarish va qo'llab-quvvatlashga vaqtni tejash.",
+                "about.title": "Men haqimda",
+                "about.desc": "Men innovatsion va ishonchli echimlarni taqdim etishga intiladigan tajribali IT mutaxassisiman. Texnologiyalarga qiziqaman va biznesning raqamli davrda rivojlanishiga yordam berish uchun mukammallikka intilaman.",
+                "contact.title": "Aloqa",
+                "contact.desc": "Biznesingizni keyingi bosqichga olib chiqishga tayyormisiz? IT echimlariga bo'lgan ehtiyojlaringizni muhokama qilish uchun bugun men bilan bog'laning.",
+                "contact.phone": "Telefon:",
+                "services.sysadmin.title": "Sistemali boshqaruv",
+                "services.sysadmin.desc": "IT infratuzilmangizni 24/7 barqaror va xavfsiz saqlash.",
+                "services.frontend.title": "Frontend web ishlanma",
+                "services.frontend.desc": "Eng zamonaviy texnologiyalar bilan oqlangan va sezgir interfeyslarni yaratish.",
+                "footer.copyright": "© 2025 Makhmud/Dev. Barcha huquqlar himoyalangan."
+            },
+            "ru": {
+                "header.before_name": "<",
+                "header.name": "Makhmud/Dev",
+                "header.after_name": ">",
+                "header.title": "Makhmud/Dev",
+                "header.subtitle": "Ваш партнер в области цифровой трансформации",
+                "nav.services": "Услуги",
+                "nav.about": "Обо мне",
+                "nav.contact": "Контакты",
+                "services.title": "Мои Услуги",
+                "services.web_dev.title": "Веб-разработка",
+                "services.web_dev.desc": "Я фронтенд-веб-разработчик. Помогаю компаниям создавать современные и удобные веб-сайты, которые привлекают пользователей и решают бизнес-задачи.",
+                "services.domain.title": "Организация доменной структуры",
+                "services.domain.desc": "Автоматизация установки, обновления и управления ПО через домен для снижения нагрузки на IT-отдел.",
+                "services.server.title": "Создание и настройка серверов",
+                "services.server.desc": "Настройка и поддержание стабильной работы серверов для хранения файлов, почты и печати.",
+                "services.network.title": "Сетевая инфраструктура",
+                "services.network.desc": "Разрабатываю, внедряю и управляю безопасными и надёжными сетевыми решениями.",
+                "services.it_support.title": "IT-поддержка",
+                "services.it_support.desc": "Предлагаю комплексные услуги ИТ-поддержки для обеспечения бесперебойной работы ваших систем.",
+                "services.camera.title": "Установка и настройка камер",
+                "services.camera.desc": "Защитите свой дом или бизнес с помощью профессиональной установки и настройки камер видеонаблюдения “Hikvision”.",
+                "services.os.title": "Установка и настройка ОС и ПО",
+                "services.os.desc": "Быстрая установка Windows (8.1, 10, 11) и популярных программ: AutoCAD, Photoshop, 1C, Office и защита от вирусов.",
+                "services.1c.title": "Обслуживание 1С",
+                "services.1c.desc": "Оперативное решение проблем, автоматизация резервного копирования и обновлений, консультации. Экономия времени на администрирование и поддержание работоспособности 1С.",
+                "about.title": "Обо мне",
+                "about.desc": "Я - опытный ИТ-профессионал, стремящийся предоставлять инновационные и надежные решения. С энтузиазмом отношусь к технологиям и стремлюсь к совершенству, чтобы помочь бизнесу процветать в цифровую эпоху.",
+                "contact.title": "Контакты",
+                "contact.desc": "Готовы вывести ваш бизнес на новый уровень? Свяжитесь со мной сегодня, чтобы обсудить ваши потребности в IT-решениях.",
+                "contact.phone": "Телефон:",
+                "services.sysadmin.title": "Системное администрирование",
+                "services.sysadmin.desc": "Поддержание стабильности и безопасности вашей ИТ-инфраструктуры 24/7.",
+                "services.frontend.title": "Frontend разработка",
+                "services.frontend.desc": "Создание элегантных и отзывчивых интерфейсов с использованием передовых технологий.",
+                "footer.copyright": "© 2025 Makhmud/Dev. Все права защищены."
+            },
+            "en": {
+                "header.before_name": "<",
+                "header.name": "Makhmud/Dev",
+                "header.after_name": ">",
+                "header.title": "Makhmud/Dev",
+                "header.subtitle": "Your partner in digital transformation",
+                "nav.services": "Services",
+                "nav.about": "About Me",
+                "nav.contact": "Contact",
+                "services.title": "My Services",
+                "services.web_dev.title": "Web Development",
+                "services.web_dev.desc": "I am a frontend web developer. I help companies create modern and user-friendly websites that attract users and solve business problems.",
+                "services.domain.title": "Domain Structure Organization",
+                "services.domain.desc": "Automating the installation, update and management of software through a domain to reduce the load on the IT department.",
+                "services.server.title": "Server Creation and Configuration",
+                "services.server.desc": "Configuring and maintaining the stable operation of servers for storing files, mail and printing.",
+                "services.network.title": "Network Infrastructure",
+                "services.network.desc": "I develop, implement and manage secure and reliable network solutions.",
+                "services.it_support.title": "IT Support",
+                "services.it_support.desc": "I offer comprehensive IT support services to ensure the smooth operation of your systems.",
+                "services.camera.title": "Camera Installation and Configuration",
+                "services.camera.desc": "Protect your home or business with professional installation and configuration of Hikvision CCTV cameras.",
+                "services.os.title": "OS and Software Installation and Configuration",
+                "services.os.desc": "Quick installation of Windows (8.1, 10, 11) and popular programs: AutoCAD, Photoshop, 1C, Office and virus protection.",
+                "services.1c.title": "1C Service",
+                "services.1c.desc": "Prompt problem solving, automation of backups and updates, consultations. Saving time on administration and maintenance of 1C operability.",
+                "about.title": "About Me",
+                "about.desc": "I am an experienced IT professional striving to provide innovative and reliable solutions. I am enthusiastic about technology and strive for excellence to help businesses thrive in the digital age.",
+                "contact.title": "Contact",
+                "contact.desc": "Ready to take your business to the next level? Contact me today to discuss your IT solution needs.",
+                "contact.phone": "Phone:",
+                "services.sysadmin.title": "System Administration",
+                "services.sysadmin.desc": "Maintaining the stability and security of your IT infrastructure 24/7.",
+                "services.frontend.title": "Frontend Web Development",
+                "services.frontend.desc": "Building elegant and responsive interfaces with cutting-edge technologies.",
+                "footer.copyright": "© 2025 Makhmud/Dev. All rights reserved."
+            }
+        };
+
+        function changeLanguage(lang) {
+            const elements = document.querySelectorAll('[data-i18n]');
+            elements.forEach(element => {
+                const translationKey = element.getAttribute('data-i18n');
+                if (translations[lang] && translations[lang][translationKey]) {
+                    element.textContent = translations[lang][translationKey];
+                }
+            });
+        }
+    </script>
+
+</body>
+<style>
+   
+
+    /* Общие стили */
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Lato', sans-serif;
+        background-color: #222;
+        color: #fff;
+        line-height: 1.6;
+        overflow-x: hidden;
+        /* Анимация фона */
+        animation: gradientAnimation 15s ease infinite;
+    }
+
+    /* Градиентный фон */
+    body::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+        background-size: 400% 400%;
+        z-index: -1;
+    }
+
+    @keyframes gradientAnimation {
+        0% {
+            background-position: 0% 50%;
+        }
+
+        50% {
+            background-position: 100% 50%;
+        }
+
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+
+    .container {
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.7);
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+    }
+
+    /* Шапка (header) */
+    header {
+        text-align: center;
+        padding: 40px 0;
+        border-bottom: 1px solid #444;
+        margin-bottom: 30px;
+        animation: fadeInDown 1s ease-out;
+    }
+
+    @keyframes fadeInDown {
+        from {
+            opacity: 0;
+            transform: translateY(-50px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    header h1 {
+        font-family: 'Oswald', sans-serif;
+        font-size: 4rem;
+        color: #fff;
+        margin-bottom: 10px;
+    }
+
+    header p {
+        font-size: 1.4rem;
+        font-style: italic;
+        color: #ddd;
+    }
+
+    /* Навигация (navigation) */
+    nav {
+        background-color: rgba(255, 255, 255, 0.1);
+        padding: 10px 0;
+        text-align: center;
+        position: sticky;
+        top: 0;
+        z-index: 9;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+        animation: fadeInUp 1s ease-out;
+    }
+
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(50px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 20px;
+        font-size: 1.2rem;
+        transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+        color: #ffcc00;
+        /* Золотой цвет */
+    }
+
+    /* Секция услуг (services section) */
+    .services {
+        padding: 50px 0;
+        text-align: center;
+    }
+
+    .services h2 {
+        font-family: 'Oswald', sans-serif;
+        font-size: 3rem;
+        margin-bottom: 30px;
+        color: #fff;
+        animation: slideInLeft 1s ease-out;
+    }
+
+    @keyframes slideInLeft {
+        from {
+            opacity: 0;
+            transform: translateX(-100px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    .service-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        gap: 30px;
+        width: 90%;
+        margin: 0 auto;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        background-color: rgba(255, 255, 255, 0.1);
+        animation: fadeIn 1s ease-out;
+    }
+
+    .service {
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        background-color: rgba(0, 0, 0, 0.3);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .service:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+    }
+
+    .service h3 {
+        font-family: 'Lato', sans-serif;
+        font-size: 1.8rem;
+        margin-bottom: 15px;
+        color: #ffcc00;
+    }
+
+    .service p {
+        color: #ddd;
+        font-size: 1.1rem;
+    }
+
+    /* Секция обо мне (about-me section) */
+    .about-me {
+        padding: 50px 0;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.5);
+        animation: slideInRight 1s ease-out;
+    }
+
+    @keyframes slideInRight {
+        from {
+            opacity: 0;
+            transform: translateX(100px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    .about-me h2 {
+        font-family: 'Oswald', sans-serif;
+        font-size: 3rem;
+        margin-bottom: 30px;
+        color: #fff;
+    }
+
+    .about-me p {
+        width: 80%;
+        margin: 0 auto;
+        font-size: 1.2rem;
+        color: #ddd;
+    }
+
+    /* Секция контактов (contact section) */
+    .contact {
+        padding: 50px 0;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.7);
+        box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
+        animation: fadeIn 1s ease-out;
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    .contact h2 {
+        font-family: 'Oswald', sans-serif;
+        font-size: 3rem;
+        margin-bottom: 30px;
+        color: #fff;
+    }
+
+    .contact p {
+        font-size: 1.2rem;
+        color: #ddd;
+        margin-bottom: 15px;
+        font-weight: bold;
+    }
+
+    .contact a {
+        color: #ffcc00;
+        text-decoration: none;
+        transition: color 0.3s ease;
+        font-size: 1.3rem;
+    }
+
+    .contact a:hover {
+        color: #ff9900;
+    }
+
+    /* Подвал (footer) */
+    footer {
+        background-color: #111;
+        color: #ddd;
+        text-align: center;
+        padding: 20px 0;
+        font-size: 0.9rem;
+    }
+
+    /* Медиа-запросы для адаптивности */
+    @media (max-width: 768px) {
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        nav a {
+            margin: 0 10px;
+            font-size: 1rem;
+        }
+
+        .service-grid {
+            grid-template-columns: 1fr;
+        }
+
+        .about-me p {
+            width: 90%;
+        }
+    }
+
+    /* Стили для кнопок с языками */
+    .language-buttons {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .language-buttons button {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+
+    .language-buttons button:hover {
+        background-color: #3e8e41;
+    }
+
+
+
+    /* Общие стили */
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Arial', sans-serif;
+        background-color: #f4f4f4;
+        color: #333;
+        line-height: 1.6;
+        overflow-x: hidden;
+        /* Анимированный фон */
+        animation: gradientAnimation 15s ease infinite;
+    }
+
+    /* Добавлены ключевые кадры для градиентной анимации */
+    @keyframes gradientAnimation {
+        0% {
+            background-position: 0% 50%;
+        }
+
+        50% {
+            background-position: 100% 50%;
+        }
+
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+
+    /* Шапка (header) */
+    header {
+        background-color: rgba(34, 40, 49, 0.9);
+        color: #fff;
+        padding: 20px 0;
+        text-align: center;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        position: relative;
+        z-index: 10;
+        /* Добавлена анимация появления */
+        animation: fadeInDown 1s ease-out;
+    }
+
+    /* Добавлены ключевые кадры для анимации */
+    @keyframes fadeInDown {
+        from {
+            opacity: 0;
+            transform: translateY(-50px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    header h1 {
+        font-family: 'Oswald', sans-serif;
+        font-size: 3rem;
+        margin-bottom: 10px;
+        /* Добавлена тень для заголовка */
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    header p {
+        font-size: 1.2rem;
+        font-style: italic;
+    }
+
+    /* Навигация (navigation) */
+    nav {
+        background-color: rgba(57, 62, 70, 0.9);
+        padding: 10px 0;
+        text-align: center;
+        position: sticky;
+        top: 0;
+        z-index: 9;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        /* Добавлена анимация появления */
+        animation: fadeInUp 1s ease-out;
+    }
+
+    /* Добавлены ключевые кадры для анимации */
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(50px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 20px;
+        font-size: 1.1rem;
+        transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+        color: #4CAF50;
+    }
+
+    /* Секция услуг (services section) */
+    .services {
+        padding: 50px 0;
+        text-align: center;
+        /* Добавлен фон */
+        background-color: rgba(244, 244, 244, 0.7);
+    }
+
+    .services h2 {
+        font-family: 'Oswald', sans-serif;
+        font-size: 2.5rem;
+        margin-bottom: 30px;
+        color: #222831;
+        /* Добавлена анимация появления слева */
+        animation: slideInLeft 1s ease-out;
+    }
+
+    /* Добавлены ключевые кадры для анимации */
+    @keyframes slideInLeft {
+        from {
+            opacity: 0;
+            transform: translateX(-100px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    .service-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 30px;
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        background-color: rgba(255, 255, 255, 0.8);
+        /* Добавлена анимация появления */
+        animation: fadeIn 1s ease-out;
+    }
+
+    /* Добавлены ключевые кадры для анимации */
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    .service {
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        background-color: #fff;
+        transition: transform 0.3s ease, box-shadow0.3s ease;
+        /* Добавлена анимация увеличения при появлении */
+        animation: zoomIn 0.5s ease-out;
+    }
+
+    /* Добавлены ключевые кадры для анимации */
+    @keyframes zoomIn {
+        from {
+            transform: scale(0.5);
+            opacity: 0;
+        }
+
+        to {
+            transform: scale(1);
+            opacity: 1;
+        }
+    }
+
+    .service:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    .service h3 {
+        font-family: 'Lato', sans-serif;
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+        color: #333;
+    }
+
+    .service p {
+        color: #555;
+        font-size: 1.1rem;
+    }
+
+    /* Секция обо мне (about-me section) */
+    .about-me {
+        padding: 50px 0;
+        text-align: center;
+        background-color: rgba(244, 244, 244, 0.7);
+        /* Добавлена анимация появления справа */
+        animation: slideInRight 1s ease-out;
+    }
+
+    /* Добавлены ключевые кадры для анимации */
+    @keyframes slideInRight {
+        from {
+            opacity: 0;
+            transform: translateX(100px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    .about-me h2 {
+        font-family: 'Oswald', sans-serif;
+        font-size: 2.5rem;
+        margin-bottom: 30px;
+        color: #222831;
+    }
+
+    .about-me p {
+        width: 80%;
+        margin: 0 auto;
+        font-size: 1.1rem;
+        color: #555;
+    }
+
+    /* Секция контактов (contact section) */
+    .contact {
+        padding: 50px 0;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.8);
+        box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+        /* Добавлена анимация появления */
+        animation: fadeIn 1s ease-out;
+    }
+
+    .contact h2 {
+        font-family: 'Oswald', sans-serif;
+        font-size: 2.5rem;
+        margin-bottom: 30px;
+        color: #222831;
+    }
+
+    .contact p {
+        font-size: 1.1rem;
+        color: #555;
+        margin-bottom: 15px;
+    }
+
+    .contact a {
+        color: #2196F3;
+        text-decoration: none;
+        transition: color 0.3s ease;
+        font-size: 1.4rem;
+        /* Увеличенный размер шрифта */
+    }
+
+    .contact a:hover {
+        color: #0b7dda;
+    }
+
+    /* Подвал (footer) */
+    footer {
+        background-color: #222831;
+        color: #fff;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    footer p {
+        font-size: 1rem;
+    }
+
+    /* Медиа-запросы для адаптивности */
+    @media (max-width: 768px) {
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        nav a {
+            margin: 0 10px;
+            font-size: 1rem;
+        }
+
+        .service-grid {
+            width: 95%;
+        }
+
+        .about-me p {
+            width: 90%;
+        }
+    }
+
+    /* Стили для кнопок с языками */
+    .language-buttons {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .language-buttons button {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+
+    .language-buttons button:hover {
+        background-color: #3e8e41;
+    }
+</style>
+
+</html>
